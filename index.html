@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air conditioner remote control</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="remote">
+    <div class="screen" id="screen">
+      <div>conditioner is : off</div>
+      <div>Mode : Cooling</div>
+      <div>Speed : 0</div>
+      <div>Heat : 24°C</div>
+    </div>
+    <div class="buttons">
+      <button class="power" onclick="togglePower()">On / Off</button>
+      <button class="speed" onclick="changeSpeed()">speed</button>
+      <button class="mode" onclick="changeMode()">Mode</button>
+      <button class="temp-up" onclick="increaseTemp()">Heat +</button>
+      <button class="temp-down" onclick="decreaseTemp()">Heat -</button>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
